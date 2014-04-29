@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:and="http://schemas.android.com/apk/res/android">
+    
+  <include
+    layout="@layout/spen_menu"
+    and:layout_width="match_parent"
+    and:layout_height="wrap_content"
+    and:layout_weight="0"/>
+  
+  <FrameLayout
+    and:id="@+id/layoutContainer"
+    and:layout_width="match_parent"
+    and:layout_height="0px"
+    and:layout_weight="1"
+    and:contentDescription="layoutContainer">
+    
+    <RelativeLayout 
+      and:id="@+id/scanvasContainer" 
+      and:layout_width="match_parent"
+      and:layout_height="match_parent"
+      and:layout_gravity="center"
+      and:contentDescription="canvasContainer"/>
+          
+  </FrameLayout>
+
+</merge>

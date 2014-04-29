@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:shape="rectangle">
+  
+  <corners 
+    android:radius="@dimen/spen_rounded_radius" />
+  
+  <padding 
+    android:left="@dimen/spen_shape_pad"
+    android:top="@dimen/spen_shape_pad"
+    android:right="@dimen/spen_shape_pad"
+    android:bottom="@dimen/spen_shape_pad"/>
+  
+  <solid 
+    android:color="@color/spen_disabled_press_color"/>
+  <stroke 
+    android:width="3dp"
+    android:color="@color/spen_selected_color"/>
+
+</shape>

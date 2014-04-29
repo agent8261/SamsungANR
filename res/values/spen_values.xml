@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="spen_disabled_press_color">#606060</color>
+    <color name="spen_enabled_nopress_color">#C1C1C1</color>
+    <color name="spen_selected_color">#000000</color>
+    
+    <string name="spen_cancel">Cancel</string>
+    <string name="spen_undo">Undo</string>
+    <string name="spen_redo">Redo</string>
+    <string name="spen_pen_only">Pen Only</string>
+    
+    <string name="spen_pen">Pen</string>
+    <string name="spen_eraser">Eraser</string>
+    <string name="spen_text">Text</string>
+    
+    <string name="spen_fill">Fill</string>
+    <string name="spen_color_pick">Pick Color</string>
+    
+    <string name="spen_text_toast">Tap Canvas to insert Text</string>
+    <string name="spen_menu_toast">Tap button again for more options</string>
+    <string name="spen_fill_toast">Tap Canvas to fill color</string>
+    
+    <dimen name="spen_menu_margin">1dp</dimen>
+    <dimen name="spen_menu_draw_pad">1dp</dimen>
+    <dimen name="spen_menu_txt_size">16dp</dimen>
+    
+    <dimen name="spen_rounded_radius">4dp</dimen>
+    <dimen name="spen_shape_pad">4dp</dimen>
+    
+    <!-- Samsung Specfic Values -->
+    <string name="pen_settings">Pen settings</string>
+    <string name="pen_settings_preset_empty">No preset settings</string>
+    <string name="pen_settings_preset_delete_title">Delete</string>
+    <string name="pen_settings_preset_delete_msg">Selected pen preset will be permanently erased</string>
+    
+    <string name="pen_settings_preset_exist">Already exist</string>
+    <string name="pen_settings_preset_maximum_msg">Reached maximum number(12) of preset slot</string>
+    <string name="pen_settings_chinese_brush_tab">chinese brush</string>
+    <string name="pen_settings_beautify_brush_tab">beautify brush</string>
+    
+    <string name="pen_settings_beautify_brush_reset">reset</string>
+    <string name="pen_settings_beautify_cursive">cursive</string>
+    <string name="pen_settings_beautify_sustenance">sustenance</string>
+    <string name="pen_settings_beautify_dummy">dummy</string> 
+    
+    <string name="pen_settings_beautify_modulation">modulation</string>
+    <string name="eraser_settings">Eraser settings</string>
+    <string name="clear_all">Clear all</string> 
+    <string name="text_settings">Text settings</string>
+    
+    <string name="text_settings_tab_font">Font</string>
+    <string name="text_settings_tab_paragraph">Paragraph</string>
+    <string name="text_settings_tab_paragraph_align">Align</string>
+    <string name="text_settings_tab_list">List</string>
+    
+    <string name="textbox_hint">Insert Text</string>
+    <string name="align_left_desc">align left</string>  
+    <string name="align_center_desc">align center</string>  
+    <string name="align_right_desc">align right</string>
+    
+    <string name="filling_settings">Filling settings</string>
+    <string name="settingview_close_btn_desc">Close</string>
+    
+    <string name="settingview_preset_add_btn_desc">Add</string>
+    <string name="settingview_preset_delete_btn_desc">Delete</string>
+    
+</resources>

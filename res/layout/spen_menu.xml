@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:and="http://schemas.android.com/apk/res/android"
+  and:layout_width="match_parent" and:layout_height="wrap_content" and:orientation="horizontal"
+  and:gravity="center" and:background="@android:color/white">
+
+  <ImageView and:id="@+id/imgPenOnly" and:layout_width="0dip"
+    and:layout_height="wrap_content" and:layout_weight="1" and:layout_margin="@dimen/spen_menu_margin"
+    and:background="@drawable/spen_rect_sel" and:src="@drawable/spen_selector_penonly_n"
+    and:contentDescription="@string/spen_pen_only" />
+  
+  <ImageView and:id="@+id/imgPen" and:layout_width="0dip"
+    and:layout_height="wrap_content" and:layout_weight="1" and:layout_margin="@dimen/spen_menu_margin"
+    and:background="@drawable/spen_rect_sel" and:src="@drawable/spen_tool_ic_pen"
+    and:contentDescription="@string/spen_pen" />
+  
+  <ImageView and:id="@+id/imgEraser" and:layout_width="0dip"
+    and:layout_height="wrap_content" and:layout_weight="1" and:layout_margin="@dimen/spen_menu_margin"
+    and:background="@drawable/spen_rect_sel" and:src="@drawable/spen_selector_eraser"
+    and:contentDescription="@string/spen_eraser" />
+  
+  <ImageView and:id="@+id/imgText" and:layout_width="0dip"
+    and:layout_height="wrap_content" and:layout_weight="1" and:layout_margin="@dimen/spen_menu_margin"
+    and:background="@drawable/spen_rect_sel" and:src="@drawable/spen_selector_text"
+    and:contentDescription="@string/spen_text" />
+  
+  <ImageView and:id="@+id/imgFill" and:layout_width="0dip"
+    and:layout_height="wrap_content" and:layout_weight="1" and:layout_margin="@dimen/spen_menu_margin"
+    and:background="@drawable/spen_rect_sel" and:src="@drawable/spen_selector_filling"
+    and:contentDescription="@string/spen_fill" />
+  
+  <ImageView and:id="@+id/imgUndo" and:layout_width="0dip"
+    and:layout_height="wrap_content" and:layout_weight="1" and:layout_margin="@dimen/spen_menu_margin"
+    and:background="@drawable/spen_rect_sel" and:src="@drawable/spen_selector_undo"
+    and:contentDescription="@string/spen_undo" />
+  
+  <ImageView and:id="@+id/imgRedo" and:layout_width="0dip"
+    and:layout_height="wrap_content" and:layout_weight="1" and:layout_margin="@dimen/spen_menu_margin"
+    and:background="@drawable/spen_rect_sel" and:src="@drawable/spen_selector_redo"
+    and:contentDescription="@string/spen_redo" />
+  
+
+</LinearLayout>

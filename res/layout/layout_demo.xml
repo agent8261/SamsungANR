@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:and="http://schemas.android.com/apk/res/android"
+  and:orientation="vertical"
+  and:layout_width="match_parent"
+  and:layout_height="wrap_content"
+  and:layout_gravity="center_horizontal">
+  
+  <Button
+    and:id="@+id/btnAct"
+    and:layout_width="match_parent"
+    and:layout_height="wrap_content"
+    and:layout_marginTop="100dp"
+    and:layout_marginBottom="40dp"
+    and:text="Launch Suface"/>
+  
+  <Button
+    and:id="@+id/btnSwitch"
+    and:layout_width="match_parent"
+    and:layout_height="wrap_content"
+    and:layout_marginBottom="20dp"
+    and:text="Switch"/>
+  
+  <ImageView
+    and:id="@+id/bulb"
+    and:layout_width="wrap_content"
+    and:layout_height="250dp"
+    and:src="@drawable/light_bulb_off"
+    and:scaleType="centerInside"/>
+
+</LinearLayout>
