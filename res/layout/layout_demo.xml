@@ -12,14 +12,14 @@
     and:layout_height="wrap_content"
     and:layout_marginTop="100dp"
     and:layout_marginBottom="40dp"
-    and:text="Launch Suface"/>
+    and:text="Launch Act"/>
   
   <Button
     and:id="@+id/btnSwitch"
     and:layout_width="match_parent"
     and:layout_height="wrap_content"
     and:layout_marginBottom="20dp"
-    and:text="Switch"/>
+    and:text="Light Switch"/>
   
   <ImageView
     and:id="@+id/bulb"
